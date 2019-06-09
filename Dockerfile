@@ -11,6 +11,6 @@ RUN npm install
 # 앱 소스 추가
 COPY ./node/*.js ./
 
-EXPOSE 8000
+EXPOSE 9000
 CMD [ "npm", "start" ]
 
